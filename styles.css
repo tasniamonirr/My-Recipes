@@ -1,4 +1,4 @@
-/*------------------- whole page---------------------*/
+/*------------------- whole page index.html---------------------*/
 
 * {
    
@@ -6,7 +6,7 @@
   }
 /*--------------------- index.html------------------- */
 
-/* index header */
+/* index.html header */
 
 .header{
     font-family: cursive;
@@ -29,4 +29,51 @@
 
 .content{
     padding: 50px;
+}
+
+
+/* ----------------------- grilledcheese.html ------------------------ */
+
+.gcheader{
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow: 5px 5px #c9d2da;
+    text-align: center;
+    color: rgb(156, 134, 177);
+    padding-top: 10px;
+
+}
+
+/* display grilled cheese image*/
+
+.gcimage{
+
+/*center image*/
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  /*image caption*/
+
+  text-align: center;
+    font-style: italic;
+    font-size: 12px;
+
+}
+
+
+   
+
+.wholepage{
+    margin: 50px;
+    
+}
+#gcparagraph{
+    padding: 20px;
+}
+.gcsubheader{
+    padding: 20px;
+    color: rgb(138, 118, 156);
 }
